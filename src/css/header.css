@@ -44,7 +44,7 @@ header {
       margin-top: 0; }
       header .top .nav li {
         float: left;
-        padding: 5px; }
+        padding-left: 5px; }
       header .top .nav li span {
         font-weight: bold; }
       header .top .nav li a:hover {
@@ -55,18 +55,24 @@ header {
     line-height: 120px;
     font-size: 14px; }
     header .bottom ul {
-      width: 950px;
-      height: 120px; }
+      width: 600px;
+      height: 120px;
+      line-height: 120px;
+      padding-left: 300px; }
       header .bottom ul li {
-        height: 30px;
         text-align: center;
-        line-height: 30px;
         float: left;
-        padding: 20px; }
-        header .bottom ul li:hover {
-          border-bottom: 1px solid #ffe100; }
+        padding-right: 10px;
+        padding-left: 10px; }
         header .bottom ul li a {
           color: #ffe100; }
+          header .bottom ul li a:hover {
+            border-bottom: 1px solid #ffe100; }
+        header .bottom ul li img {
+          display: inline-block;
+          width: 65px;
+          height: 100px;
+          margin-top: 10px; }
 
 /*# sourceMappingURL=header.css.map */
 
